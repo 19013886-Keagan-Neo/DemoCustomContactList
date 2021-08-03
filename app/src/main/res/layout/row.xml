@@ -9,6 +9,13 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+        <ImageView
+            android:id="@+id/imageViewGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/female" />
+
         <TextView
             android:id="@+id/textViewName"
             android:layout_width="wrap_content"
@@ -17,12 +24,6 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/imageViewGender"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@null"
-            android:src="@drawable/female" />
     </LinearLayout>
 
     <LinearLayout
